@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 // >>> REPLACE YOUR-GITHUB-REPOSITORY-NAME below with your exact GitHub repository name <<<
-const REPO_NAME = 'YOUR-GITHUB-REPOSITORY-NAME';
+const REPO_NAME = 'foodora-restaurant';
 
 export default defineConfig(({ command }) => ({
   plugins: [react()],
